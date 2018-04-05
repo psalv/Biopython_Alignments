@@ -124,8 +124,6 @@ def transcription_translation():
 
     from Bio import pairwise2
     from Bio import SeqIO
-    from Bio.SubsMat.MatrixInfo import blosum62
-
 
 
     seq1 = SeqIO.read("found_from_blast.faa", "fasta")
